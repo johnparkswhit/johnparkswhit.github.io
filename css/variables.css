@@ -1,0 +1,13 @@
+/* :root{
+    --red: #e80d0d; //defines red any time i use it as this particular shade
+} */
+
+:root{
+    --lightgrey: #f2d6eb;
+    --lightblue: #5c94bd;
+    --darkblue: #1a3e59;
+    --darkpurple: #470938;  
+    --lightpurple: #764c8d;
+
+    --font-one: 'josefin'
+}
