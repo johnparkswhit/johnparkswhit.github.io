@@ -1,3 +1,19 @@
-/* #navBar {
-    margin-left: 75%;
-} */
+#navBar {
+    background:transparent;
+}
+
+.navbar-nav{
+    font-size:20px;
+    align-items: baseline;
+    position:fixed;
+    top:1em;
+}
+.navbar-brand{
+    position:relative;
+}
+
+.sticky-top{
+    position: absolute;
+
+}
+

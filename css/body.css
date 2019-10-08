@@ -1,5 +1,69 @@
-body {
-    background: var(--lightgrey);
-    font-family: var(--font-one);
+body, html {
+    height: 100%;
+  }
+  
+  .parallax {
+    background-image: url("../assets/turbulent.jpg");
+    height: 85%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  } 
+  .parallax2{
+    background-image: url("../assets/DoctorWhoWallpaper.jpg");
+    height: 70%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax3{
+    background-image: url("../assets/Indy.JPG");
+    height: 70%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #aboutMe h1{
+    text-align:center;
+    margin-bottom:1em;
+  }
+  #aboutMe {
+      padding:3em;
+      background-color:slategray;
+  }
+
+  #projects h1{
+    text-align: center;
+    margin-bottom:1em;
+  }
+  #projects {
+      padding:8em;
+      background-color:slategray;
+      justify-content: center;
+  }
+  .row{
+      justify-content: center;
+  }
+
+  #contact {
+    padding:3em;
+    background-color:slategray;
 }
+
+.footer {
+    background-color:lightgray;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    /* max-width:1000px; */
+    padding:40px;
+    font-family: Arial , arial, sans-serif;
+    font-size:15px;
+}
+
 

@@ -1,7 +1,14 @@
 .jumbotron {
-    background: url("../assets/lilacs.jpg") no-repeat center;
+    background: transparent no-repeat center;
     background-size:cover;
-    color:white;
+    color:lightskyblue;
     text-align:center;
-    height: 75vh;
+    font-family: 'Great Vibes', cursive;
+    position:relative;
+    top:20vh;
+    
 }
+.jpw{
+    font-size:7em;
+}
+
